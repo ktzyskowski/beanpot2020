@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E104E62D5EDCC6CF5B9B2EEF /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C30FC476651C3D2992E1F /* Pods_Hackathon.framework */; };
 		FC3E286323EEECF2007343EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E286223EEECF2007343EF /* AppDelegate.swift */; };
 		FC3E286523EEECF2007343EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E286423EEECF2007343EF /* SceneDelegate.swift */; };
 		FC3E286723EEECF2007343EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E286623EEECF2007343EF /* ViewController.swift */; };
 		FC3E286A23EEECF2007343EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3E286823EEECF2007343EF /* Main.storyboard */; };
 		FC3E286C23EEECF4007343EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3E286B23EEECF4007343EF /* Assets.xcassets */; };
 		FC3E286F23EEECF4007343EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3E286D23EEECF4007343EF /* LaunchScreen.storyboard */; };
+		FC3E287723EEED08007343EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3E287623EEED08007343EF /* GoogleService-Info.plist */; };
+		FC6ADB1423EEF17E008EC715 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1323EEF17E008EC715 /* SignupViewController.swift */; };
+		FC6ADB1623EEFA0B008EC715 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1523EEFA0B008EC715 /* LoginViewController.swift */; };
+		FC6ADB1823EEFF6F008EC715 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1723EEFF6F008EC715 /* SettingsViewController.swift */; };
+		FC6ADB1A23EF073A008EC715 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1923EF073A008EC715 /* ProductViewController.swift */; };
+		FC6ADB1C23EF08FA008EC715 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1B23EF08FA008EC715 /* Product.swift */; };
+		FC6ADB1E23EF1249008EC715 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1D23EF1249008EC715 /* NewPostViewController.swift */; };
+		FC6ADB2023EF1ACC008EC715 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB1F23EF1ACC008EC715 /* ProductTableViewCell.swift */; };
+		FC6ADB2223EF1EE7008EC715 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB2123EF1EE7008EC715 /* Products.swift */; };
+		FC6ADB2423EF4E9F008EC715 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB2323EF4E9F008EC715 /* ProductDetailViewController.swift */; };
+		FC6ADB2623F0255F008EC715 /* GigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB2523F0255F008EC715 /* GigViewController.swift */; };
+		FC6ADB2823F0289D008EC715 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6ADB2723F0289D008EC715 /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510C30FC476651C3D2992E1F /* Pods_Hackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB594A455B9E00AFD88D09F /* Pods-Hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.debug.xcconfig"; path = "Target Support Files/Pods-Hackathon/Pods-Hackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		AEEA7BE85C7B955411418706 /* Pods-Hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackathon.release.xcconfig"; path = "Target Support Files/Pods-Hackathon/Pods-Hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		FC3E285F23EEECF2007343EF /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3E286223EEECF2007343EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3E286423EEECF2007343EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,18 @@
 		FC3E286B23EEECF4007343EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3E286E23EEECF4007343EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3E287023EEECF4007343EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3E287623EEED08007343EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC6ADB1323EEF17E008EC715 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FC6ADB1523EEFA0B008EC715 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC6ADB1723EEFF6F008EC715 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FC6ADB1923EF073A008EC715 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		FC6ADB1B23EF08FA008EC715 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FC6ADB1D23EF1249008EC715 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		FC6ADB1F23EF1ACC008EC715 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FC6ADB2123EF1EE7008EC715 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		FC6ADB2323EF4E9F008EC715 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		FC6ADB2523F0255F008EC715 /* GigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigViewController.swift; sourceTree = "<group>"; };
+		FC6ADB2723F0289D008EC715 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E104E62D5EDCC6CF5B9B2EEF /* Pods_Hackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FD9910F2D1D7D9CF2A97BE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				510C30FC476651C3D2992E1F /* Pods_Hackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B244FB9F6B2E934A931F4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB594A455B9E00AFD88D09F /* Pods-Hackathon.debug.xcconfig */,
+				AEEA7BE85C7B955411418706 /* Pods-Hackathon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC3E285623EEECF2007343EF = {
 			isa = PBXGroup;
 			children = (
 				FC3E286123EEECF2007343EF /* Hackathon */,
 				FC3E286023EEECF2007343EF /* Products */,
+				C6B244FB9F6B2E934A931F4E /* Pods */,
+				6FD9910F2D1D7D9CF2A97BE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +104,51 @@
 		FC3E286123EEECF2007343EF /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				FC6ADB1023EEF13F008EC715 /* View */,
+				FC6ADB1123EEF144008EC715 /* Model */,
+				FC6ADB1223EEF158008EC715 /* Controller */,
 				FC3E286223EEECF2007343EF /* AppDelegate.swift */,
 				FC3E286423EEECF2007343EF /* SceneDelegate.swift */,
 				FC3E286623EEECF2007343EF /* ViewController.swift */,
 				FC3E286823EEECF2007343EF /* Main.storyboard */,
 				FC3E286B23EEECF4007343EF /* Assets.xcassets */,
 				FC3E286D23EEECF4007343EF /* LaunchScreen.storyboard */,
+				FC3E287623EEED08007343EF /* GoogleService-Info.plist */,
 				FC3E287023EEECF4007343EF /* Info.plist */,
 			);
 			path = Hackathon;
+			sourceTree = "<group>";
+		};
+		FC6ADB1023EEF13F008EC715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC6ADB1F23EF1ACC008EC715 /* ProductTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC6ADB1123EEF144008EC715 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC6ADB1B23EF08FA008EC715 /* Product.swift */,
+				FC6ADB2123EF1EE7008EC715 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC6ADB1223EEF158008EC715 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC6ADB1323EEF17E008EC715 /* SignupViewController.swift */,
+				FC6ADB1523EEFA0B008EC715 /* LoginViewController.swift */,
+				FC6ADB1723EEFF6F008EC715 /* SettingsViewController.swift */,
+				FC6ADB1923EF073A008EC715 /* ProductViewController.swift */,
+				FC6ADB1D23EF1249008EC715 /* NewPostViewController.swift */,
+				FC6ADB2323EF4E9F008EC715 /* ProductDetailViewController.swift */,
+				FC6ADB2523F0255F008EC715 /* GigViewController.swift */,
+				FC6ADB2723F0289D008EC715 /* EventViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC3E287323EEECF4007343EF /* Build configuration list for PBXNativeTarget "Hackathon" */;
 			buildPhases = (
+				957E375D3A74C1D1675433FD /* [CP] Check Pods Manifest.lock */,
 				FC3E285B23EEECF2007343EF /* Sources */,
 				FC3E285C23EEECF2007343EF /* Frameworks */,
 				FC3E285D23EEECF2007343EF /* Resources */,
+				AF131A26C73F9683D0C3A433 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3E286F23EEECF4007343EF /* LaunchScreen.storyboard in Resources */,
+				FC3E287723EEED08007343EF /* GoogleService-Info.plist in Resources */,
 				FC3E286C23EEECF4007343EF /* Assets.xcassets in Resources */,
 				FC3E286A23EEECF2007343EF /* Main.storyboard in Resources */,
 			);
@@ -133,14 +220,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		957E375D3A74C1D1675433FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF131A26C73F9683D0C3A433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hackathon/Pods-Hackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC3E285B23EEECF2007343EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6ADB1423EEF17E008EC715 /* SignupViewController.swift in Sources */,
+				FC6ADB2223EF1EE7008EC715 /* Products.swift in Sources */,
 				FC3E286723EEECF2007343EF /* ViewController.swift in Sources */,
 				FC3E286323EEECF2007343EF /* AppDelegate.swift in Sources */,
+				FC6ADB1C23EF08FA008EC715 /* Product.swift in Sources */,
+				FC6ADB2423EF4E9F008EC715 /* ProductDetailViewController.swift in Sources */,
+				FC6ADB1A23EF073A008EC715 /* ProductViewController.swift in Sources */,
+				FC6ADB1E23EF1249008EC715 /* NewPostViewController.swift in Sources */,
+				FC6ADB1623EEFA0B008EC715 /* LoginViewController.swift in Sources */,
+				FC6ADB2823F0289D008EC715 /* EventViewController.swift in Sources */,
+				FC6ADB2023EF1ACC008EC715 /* ProductTableViewCell.swift in Sources */,
 				FC3E286523EEECF2007343EF /* SceneDelegate.swift in Sources */,
+				FC6ADB1823EEFF6F008EC715 /* SettingsViewController.swift in Sources */,
+				FC6ADB2623F0255F008EC715 /* GigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +422,7 @@
 		};
 		FC3E287423EEECF4007343EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB594A455B9E00AFD88D09F /* Pods-Hackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +441,7 @@
 		};
 		FC3E287523EEECF4007343EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEA7BE85C7B955411418706 /* Pods-Hackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
